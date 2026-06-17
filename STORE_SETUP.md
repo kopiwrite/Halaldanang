@@ -196,13 +196,27 @@ Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Salads & Finger Food
 
 (Move existing drink items into this category, then delete the empty old ones.)
 
-### Items (no option groups)
+### Step 2 — Sugar option group (for coffees)
+**Menu → Option Groups tab → + Add an option group → New**
+1. Name: Sugar – Đường
+2. + Add an option:
+   | Option name | Price | Note |
+   |---|---|---|
+   | Normal – Bình Thường | 0₫ | list first = default |
+   | Less – Ít Đường | 0₫ | |
+   | No Sugar – Không Đường | 0₫ | |
+3. Make mandatory = ON · Allow multiple = OFF → Save
+4. Link to all coffees: Black Coffee, Milk Coffee, Bạc Xíu
+
+### Items
 Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Drinks & Desserts – Đồ Uống & Tráng Miệng · Availability = All opening hours.
 
 | Item name | Description (EN / VN) | Price | Status |
 |---|---|---|---|
 | Canned Drinks – Nước Ngọt Lon | Canned soft drink. / Nước ngọt lon. | 15.000₫ | Live |
-| Iced Milk Coffee – Cà Phê Sữa Đá | Vietnamese iced milk coffee. / Cà phê sữa đá. | 29.000₫ | Live |
+| Black Coffee – Cà Phê Đen | Strong Vietnamese phin-brewed black coffee, hot or iced. / Cà phê đen pha phin, nóng hoặc đá. | active | Live · Link Sugar |
+| Milk Coffee – Cà Phê Sữa | Phin-brewed coffee with condensed milk, hot or iced. / Cà phê pha phin với sữa đặc, nóng hoặc đá. | 29.000₫ | Live · Link Sugar |
+| Bạc Xíu – Cà Phê Sữa Béo | Saigon-style milky coffee — lots of condensed milk, a touch of coffee. / Nhiều sữa đặc, ít cà phê, vị béo nhẹ. | active | Live · Link Sugar |
 | Fruit Juice – Nước Ép Trái Cây | Fresh fruit juice. / Nước ép trái cây. | 35.000₫ | Live |
 | Smoothies – Sinh Tố | Fruit smoothie. / Sinh tố trái cây. | 39.000₫ | Live |
 | Coconut Cream Rice Balls – Bánh Trôi Nước Cốt Dừa | Rice balls (red bean/sesame) in coconut cream. / Bánh trôi nhân đậu đỏ/mè đen, sốt nước cốt dừa. | 29.000₫ | Live |
