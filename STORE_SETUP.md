@@ -220,4 +220,4 @@ Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Drinks & Desserts �
 | Fruit Juice – Nước Ép Trái Cây | Fresh fruit juice. / Nước ép trái cây. | 35.000₫ | Live |
 | Smoothies – Sinh Tố | Fruit smoothie. / Sinh tố trái cây. | 39.000₫ | Live |
 | Coconut Cream Rice Balls – Bánh Trôi Nước Cốt Dừa | Rice balls (red bean/sesame) in coconut cream. / Bánh trôi nhân đậu đỏ/mè đen, sốt nước cốt dừa. | 29.000₫ | Live |
-| Fresh Fruit Bowl – Trái Cây Tươi | Fresh cut fruit bowl. / Trái cây tươi cắt sẵn. | 55.000₫ | Live |
+| Fruit Bowl – Tô Trái Cây | Bowl of fresh seasonal cut fruit. / Tô trái cây tươi theo mùa, cắt sẵn. | 55.000₫ | Live |
