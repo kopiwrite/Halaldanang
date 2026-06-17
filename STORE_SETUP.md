@@ -176,6 +176,7 @@ Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Salads & Finger Food
 | Egg Salad – Trứng Salad | Garden salad with egg. / Salad rau củ với trứng. | 49.000₫ | Live |
 | Shrimp Salad – Salad Tôm | Garden salad with shrimp. / Salad rau củ với tôm. | 69.000₫ | ⚠️ PENDING (shrimp) |
 | Egg & Shrimp Salad – Trứng & Tôm Salad | Salad with egg & shrimp. / Salad với trứng và tôm. | 75.000₫ | ⚠️ PENDING (shrimp) |
+| Crispy Fried Shrimp – Tôm Chiên Giòn | Crispy fried shrimp. / Tôm chiên giòn. | 120.000₫ | ⚠️ PENDING (shrimp) |
 | Popcorn Chicken – Gà Popcorn | Crispy popcorn chicken. / Gà popcorn giòn. | 45.000₫ | Live |
 | Chicken Strips 6pc – Gà Strips 6 Miếng | 6 crispy chicken strips. / 6 miếng gà chiên giòn. | 59.000₫ | Live |
 | Strips + Chips – Gà Strips & Khoai Tây | Chicken strips with chips. / Gà chiên giòn kèm khoai tây. | 79.000₫ | Live |
