@@ -2,10 +2,12 @@
 
 > Field-by-field GrabMerchant data-entry guide. Menu/pricing source of truth = `SOT.md`.
 > App: GrabMerchant (iPad). Nav: bottom **Menu** → top tabs **Items** / **Option Groups**.
-> Image spec: 800×800px, JPEG/PNG, ≤6MB. Prices shown are the *add-on* amount.
+> Image spec: 800×800px, JPEG/PNG, **≤2MB each (up to 4 photos)**. Prices shown are the *add-on* amount.
+> Item form field order: Item name → Item photo → Description → Category → Price → Option groups → Availability schedule.
 > ⚠️ = phantom-ingredient item, pending source-or-swap decision (SOT §3) — do not enter live.
+> NOTE: SOT §4 still says 6MB; live app form says 2MB each — orchestrator to correct SOT.
 
-Status: Category 1 drafted · Categories 2–4 pending.
+Status: Categories 1–2 drafted · Categories 3–4 pending.
 
 ---
 
@@ -62,11 +64,130 @@ Do the steps in order.
 | # | Field | Value |
 |---|---|---|
 | 1 | Item name | Tự Làm Mì Trộn Cay (Custom Noodle Bowl) |
-| 2 | Item photo | 800×800px, JPEG/PNG, ≤6MB (from Image Studio) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
 | 3 | Description | Bát mì trộn cay tự chọn — chọn loại mì, thêm topping tuỳ thích. (Build-your-own spicy mixed-noodle bowl — pick your noodle, stack your toppings.) |
 | 4 | Category | Tự Làm Mì Trộn Cay (Custom Noodle Bar) |
 | 5 | Price | 35.000₫ |
 | 6 | Option groups | Link **Pick Your Noodle** + **Add Toppings** |
-| 7 | Availability schedule | All open hours |
+| 7 | Availability schedule | All opening hours |
 
 Then **Save**.
+
+---
+
+## Category 2: Burgers & Chicken Mains
+
+Do the steps in order.
+
+### Step 1 — Create the Category
+**Menu → Items tab → + Add category**
+
+| Field | Value |
+|---|---|
+| Category name | Burger & Món Gà (Burgers & Chicken Mains) |
+
+### Step 2 — Create the Sauce option group (for Bánh Gà)
+**Menu → Option Groups tab → + Add an option group → New**
+
+1. **Name:** Chọn Sốt · **Edit translations → EN:** Choose Your Sauce
+2. **+ Add an option** for each:
+
+| Option name | Price | Note |
+|---|---|---|
+| Sốt Cà & Mayo (Tomato & Mayo) | 0₫ | list first = default |
+| Sốt Ớt (Chilli) | 0₫ | |
+
+3. Toggles: **Make mandatory = ON**, **Allow multiple selections = OFF** → **Save**
+
+### Step 3 — Create Item: Bánh Gà Sốt Tự Chọn
+**Menu → Items tab → + Add item** (fields in app order):
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Bánh Gà Sốt Tự Chọn (Chicken Patty, Choice of Sauce) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
+| 3 | Description | Bánh gà giòn, chọn sốt tuỳ thích. (Crispy chicken patty, choice of sauce.) |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 39.000₫ |
+| 6 | Option groups | Link **Choose Your Sauce** |
+| 7 | Availability schedule | All opening hours |
+
+Then **Save**.
+
+### Step 4 — Create Item: Burger Gà & Khoai Tây
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Burger Gà & Khoai Tây (Chicken Burger + Chips) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
+| 3 | Description | Burger gà ăn kèm khoai tây chiên. (Chicken burger served with chips.) |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 59.000₫ |
+| 6 | Option groups | none |
+| 7 | Availability schedule | All opening hours |
+
+Then **Save**.
+
+### Step 5 — Create Item: Big Hamburger Cheese
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Big Hamburger Cheese (Burger Bò Phô Mai Lớn) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
+| 3 | Description | Burger bò phô mai cỡ lớn. (Big beef cheeseburger.) |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 69.000₫ |
+| 6 | Option groups | none |
+| 7 | Availability schedule | All opening hours |
+
+Then **Save**.
+
+### Step 6 — Create Item: Big Hamburger Egg
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Big Hamburger Egg (Burger Bò Trứng Lớn) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
+| 3 | Description | Burger bò trứng cỡ lớn. (Big beef burger with egg.) |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 75.000₫ |
+| 6 | Option groups | none |
+| 7 | Availability schedule | All opening hours |
+
+Then **Save**.
+
+### Step 7 — Create Item: Big Double Hamburger Cheese
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Big Double Hamburger Cheese (Burger Bò Đôi Phô Mai Lớn) |
+| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
+| 3 | Description | Burger bò đôi phô mai cỡ lớn. (Big double beef cheeseburger.) |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 95.000₫ |
+| 6 | Option groups | none |
+| 7 | Availability schedule | All opening hours |
+
+Then **Save**.
+
+### Step 8 — ⚠️ Item: Chicken Schnitzel — PENDING (do not enter live)
+Blocked: chicken breast unresolved (SOT §3, source-or-swap). Enter only after orchestrator confirms.
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Chicken Schnitzel (Gà Tẩm Bột Chiên Xù) |
+| 2 | Item photo | pending |
+| 3 | Description | pending |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 79.000₫ |
+| 6 | Option groups | TBD |
+| 7 | Availability schedule | All opening hours |
+
+### Step 9 — ⚠️ Item: Fish & Chips — PENDING (do not enter live)
+Blocked: fish fillet unresolved (SOT §3, source-or-rebrand). Enter only after orchestrator confirms.
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Fish & Chips (Cá & Khoai Tây Chiên) |
+| 2 | Item photo | pending |
+| 3 | Description | pending |
+| 4 | Category | Burger & Món Gà |
+| 5 | Price | 85.000₫ |
+| 6 | Option groups | TBD |
+| 7 | Availability schedule | All opening hours |
