@@ -214,8 +214,8 @@ Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Drinks & Desserts �
 | Item name | Description (EN / VN) | Price | Status |
 |---|---|---|---|
 | Canned Drinks – Nước Ngọt Lon | Canned soft drink. / Nước ngọt lon. | 15.000₫ | Live |
-| Black Coffee – Cà Phê Đen | Strong Vietnamese phin-brewed black coffee, hot or iced. / Cà phê đen pha phin, nóng hoặc đá. | active | Live · Link Sugar |
-| Milk Coffee – Cà Phê Sữa | Phin-brewed coffee with condensed milk, hot or iced. / Cà phê pha phin với sữa đặc, nóng hoặc đá. | 29.000₫ | Live · Link Sugar |
+| Black Coffee – Cà Phê Đen | Strong Vietnamese phin-brewed black coffee, iced. / Cà phê đen pha phin, đá. | active | Live · Link Sugar |
+| Milk Coffee – Cà Phê Sữa | Phin-brewed coffee with condensed milk, iced. / Cà phê pha phin với sữa đặc, đá. | 29.000₫ | Live · Link Sugar |
 | Bạc Xíu – Cà Phê Sữa Béo | Saigon-style milky coffee — lots of condensed milk, a touch of coffee. / Nhiều sữa đặc, ít cà phê, vị béo nhẹ. | active | Live · Link Sugar |
 | Fruit Juice – Nước Ép Trái Cây | Fresh fruit juice. / Nước ép trái cây. | 35.000₫ | Live |
 | Smoothies – Sinh Tố | Fruit smoothie. / Sinh tố trái cây. | 39.000₫ | Live |
