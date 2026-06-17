@@ -1,193 +1,213 @@
 # STORE_SETUP — Halal Da Nang GrabFood Portal Playbook
 
-> Field-by-field GrabMerchant data-entry guide. Menu/pricing source of truth = `SOT.md`.
+> Field-by-field GrabMerchant data-entry guide. Store: halal cloud kitchen, **Đà Nẵng, Vietnam**.
+> Menu structure source = `SOT.md`; **prices here are FINAL Da Nang prices and override SOT.md** (SOT is stale, orchestrator to update).
 > App: GrabMerchant (iPad). Nav: bottom **Menu** → top tabs **Items** / **Option Groups**.
-> Image spec: 800×800px, JPEG/PNG, **≤2MB each (up to 4 photos)**. Prices shown are the *add-on* amount.
+> Naming: single Name field, **English – Vietnamese** (brand product names kept as-is).
+> Image spec: 800×800px, JPEG/PNG, **≤2MB each (up to 4 photos)**. Prices shown for options = *add-on* amount.
 > Item form field order: Item name → Item photo → Description → Category → Price → Option groups → Availability schedule.
-> ⚠️ = phantom-ingredient item, pending source-or-swap decision (SOT §3) — do not enter live.
-> NOTE: SOT §4 still says 6MB; live app form says 2MB each — orchestrator to correct SOT.
+> ⚠️ = priced but **pending ingredient confirmation** (SOT §3) — do not go live until confirmed.
 
-Status: Categories 1–2 drafted · Categories 3–4 pending.
+Status: Categories 1–4 drafted.
 
 ---
 
-## Category 1: Custom Noodle Bar
-
-Do the steps in order.
+## Category 1: Custom Noodle Bar – Tự Làm Mì Trộn Cay
 
 ### Step 1 — Create the Category
 **Menu → Items tab → + Add category**
-
 | Field | Value |
 |---|---|
-| Category name | Tự Làm Mì Trộn Cay (Custom Noodle Bar) |
+| Category name | Custom Noodle Bar – Tự Làm Mì Trộn Cay |
 
-(Existing categories are Healthy Fruit Juice / Soft Drink / Finger Food — this adds a new one, no duplicate.)
+(Existing categories: Healthy Fruit Juice / Soft Drink / Finger Food — this adds a new one.)
 
-### Step 2 — Fix & fill the Base option group (reuse existing)
+### Step 2 — Base option group (reuse existing)
 **Menu → Option Groups tab → open "Chọn Cấp Độ Cay (Choose Your Noodle Base)"** (0 items linked)
-
-1. Rename to remove the VN/EN mismatch → **Name:** Chọn Loại Mì · **Edit translations → EN:** Pick Your Noodle
-2. **+ Add an option** for each (Name + Price):
-
+1. Rename → **Name:** Pick Your Noodle – Chọn Sợi Mì
+2. **+ Add an option** (brand names kept as-is):
 | Option name | Price |
 |---|---|
-| Mi Sedaap Korean Spicy Chicken | 0₫ |
+| Mi Sedaap Korean Spicy Chicken | 0₫ (default) |
 | Samyang Quattro Cheese | 6.000₫ |
 | Samyang Habanero Lime | 6.000₫ |
 | Samyang 2x Spicy | 8.000₫ |
-
 3. Toggles: **Make mandatory = ON**, **Allow multiple selections = OFF** → **Save**
 
-### Step 3 — Create the Toppings option group (new, dedicated)
+### Step 3 — Toppings option group (new)
 **Menu → Option Groups tab → + Add an option group → "Toppings" template** (or New)
-
-1. **Name:** Thêm Topping · **Edit translations → EN:** Add Toppings
-2. **+ Add an option** for each:
-
+1. **Name:** Toppings – Topping
+2. **+ Add an option:**
 | Option name | Price | Status |
 |---|---|---|
-| Trứng Luộc (Boiled Egg) | 10.000₫ | Live |
-| Đậu Hũ (Tofu) | 15.000₫ | Live |
-| Gà Popcorn (K&U Popcorn Chicken) | 18.000₫ | Live |
-| Gà Miếng (99Poultry Strips) | 18.000₫ | Live |
-| Gà Xiên (99Poultry Skewer) | 22.000₫ | Live |
-| ⚠️ Tôm Chiên (Fried Shrimp) | 25.000₫ | PENDING — don't add until shrimp sourcing resolved (SOT §3) |
-
+| Boiled Egg – Trứng Luộc | 8.000₫ | Live |
+| Tofu – Đậu Hũ | 12.000₫ | Live |
+| K&U Popcorn Chicken – Gà Popcorn K&U | 29.000₫ | Live |
+| Chicken Strips – Gà Strips | 29.000₫ | Live |
+| Chicken Skewer – Gà Xiên | 15.000₫ | Live |
+| Fried Shrimp – Tôm Chiên | 35.000₫ | ⚠️ PENDING (shrimp) |
 3. Toggles: **Make mandatory = OFF**, **Allow multiple selections = ON** → **Save**
 
-(Don't reuse the generic "Thêm vị món ăn càng ngon" group — it's shared by 4 other items and its prices differ from SOT.)
+(Don't reuse the generic "Thêm vị món ăn càng ngon" group — shared by 4 other items, prices differ.)
 
-### Step 4 — Create the Item
-**Menu → Items tab → + Add item** (fields in app order):
-
+### Step 4 — Item
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Tự Làm Mì Trộn Cay (Custom Noodle Bowl) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Bát mì trộn cay tự chọn — chọn loại mì, thêm topping tuỳ thích. (Build-your-own spicy mixed-noodle bowl — pick your noodle, stack your toppings.) |
-| 4 | Category | Tự Làm Mì Trộn Cay (Custom Noodle Bar) |
-| 5 | Price | 35.000₫ |
-| 6 | Option groups | Link **Pick Your Noodle** + **Add Toppings** |
+| 1 | Item name | Custom Noodle Bowl – Tự Làm Mì Trộn Cay |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Build-your-own spicy mixed-noodle bowl — pick your noodle, stack your toppings. / Bát mì trộn cay tự chọn — chọn sợi mì, thêm topping tuỳ thích. |
+| 4 | Category | Custom Noodle Bar – Tự Làm Mì Trộn Cay |
+| 5 | Price | 39.000₫ |
+| 6 | Option groups | Link **Pick Your Noodle** + **Toppings** |
 | 7 | Availability schedule | All opening hours |
-
-Then **Save**.
 
 ---
 
-## Category 2: Burgers & Chicken Mains
-
-Do the steps in order.
+## Category 2: Burgers & Chicken Mains – Burger & Món Gà
 
 ### Step 1 — Create the Category
 **Menu → Items tab → + Add category**
-
 | Field | Value |
 |---|---|
-| Category name | Burger & Món Gà (Burgers & Chicken Mains) |
+| Category name | Burgers & Chicken Mains – Burger & Món Gà |
 
-### Step 2 — Create the Sauce option group (for Bánh Gà)
+### Step 2 — Sauce option group (for Bánh Gà)
 **Menu → Option Groups tab → + Add an option group → New**
-
-1. **Name:** Chọn Sốt · **Edit translations → EN:** Choose Your Sauce
-2. **+ Add an option** for each:
-
+1. **Name:** Choose Your Sauce – Chọn Sốt
+2. **+ Add an option:**
 | Option name | Price | Note |
 |---|---|---|
-| Sốt Cà & Mayo (Tomato & Mayo) | 0₫ | list first = default |
-| Sốt Ớt (Chilli) | 0₫ | |
-
+| Tomato & Mayo – Cà Chua & Mayo | 0₫ | list first = default |
+| Chilli – Ớt | 0₫ | |
 3. Toggles: **Make mandatory = ON**, **Allow multiple selections = OFF** → **Save**
 
-### Step 3 — Create Item: Bánh Gà Sốt Tự Chọn
-**Menu → Items tab → + Add item** (fields in app order):
-
+### Step 3 — Item: Chicken Patty, Choice of Sauce
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Bánh Gà Sốt Tự Chọn (Chicken Patty, Choice of Sauce) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Bánh gà giòn, chọn sốt tuỳ thích. (Crispy chicken patty, choice of sauce.) |
-| 4 | Category | Burger & Món Gà |
-| 5 | Price | 39.000₫ |
+| 1 | Item name | Chicken Patty, Choice of Sauce – Bánh Gà Sốt Tự Chọn |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Crispy chicken patty with your choice of sauce. / Bánh gà giòn, chọn sốt tuỳ thích. |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
+| 5 | Price | 49.000₫ |
 | 6 | Option groups | Link **Choose Your Sauce** |
 | 7 | Availability schedule | All opening hours |
 
-Then **Save**.
-
-### Step 4 — Create Item: Burger Gà & Khoai Tây
+### Step 4 — Item: Chicken Burger + Chips
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Burger Gà & Khoai Tây (Chicken Burger + Chips) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Burger gà ăn kèm khoai tây chiên. (Chicken burger served with chips.) |
-| 4 | Category | Burger & Món Gà |
-| 5 | Price | 59.000₫ |
-| 6 | Option groups | none |
-| 7 | Availability schedule | All opening hours |
-
-Then **Save**.
-
-### Step 5 — Create Item: Big Hamburger Cheese
-| # | Field | Value |
-|---|---|---|
-| 1 | Item name | Big Hamburger Cheese (Burger Bò Phô Mai Lớn) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Burger bò phô mai cỡ lớn. (Big beef cheeseburger.) |
-| 4 | Category | Burger & Món Gà |
+| 1 | Item name | Chicken Burger + Chips – Burger Gà & Khoai Tây |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Chicken burger served with chips. / Burger gà ăn kèm khoai tây chiên. |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
 | 5 | Price | 69.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-Then **Save**.
-
-### Step 6 — Create Item: Big Hamburger Egg
+### Step 5 — Item: Big Hamburger Cheese
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Big Hamburger Egg (Burger Bò Trứng Lớn) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Burger bò trứng cỡ lớn. (Big beef burger with egg.) |
-| 4 | Category | Burger & Món Gà |
+| 1 | Item name | Big Hamburger Cheese – Burger Bò Phô Mai Lớn |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Big beef cheeseburger. / Burger bò phô mai cỡ lớn. |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
+| 5 | Price | 79.000₫ |
+| 6 | Option groups | none |
+| 7 | Availability schedule | All opening hours |
+
+### Step 6 — Item: Big Hamburger Egg
+| # | Field | Value |
+|---|---|---|
+| 1 | Item name | Big Hamburger Egg – Burger Bò Trứng Lớn |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Big beef burger with egg. / Burger bò trứng cỡ lớn. |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
 | 5 | Price | 75.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-Then **Save**.
-
-### Step 7 — Create Item: Big Double Hamburger Cheese
+### Step 7 — Item: Big Double Hamburger Cheese
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Big Double Hamburger Cheese (Burger Bò Đôi Phô Mai Lớn) |
-| 2 | Item photo | 800×800px, ≤2MB (from Image Studio) |
-| 3 | Description | Burger bò đôi phô mai cỡ lớn. (Big double beef cheeseburger.) |
-| 4 | Category | Burger & Món Gà |
-| 5 | Price | 95.000₫ |
+| 1 | Item name | Big Double Hamburger Cheese – Burger Bò Đôi Phô Mai Lớn |
+| 2 | Item photo | 800×800px, ≤2MB |
+| 3 | Description | Big double beef cheeseburger. / Burger bò đôi phô mai cỡ lớn. |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
+| 5 | Price | 109.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-Then **Save**.
-
-### Step 8 — ⚠️ Item: Chicken Schnitzel — PENDING (do not enter live)
-Blocked: chicken breast unresolved (SOT §3, source-or-swap). Enter only after orchestrator confirms.
-
+### Step 8 — ⚠️ Item: Chicken Schnitzel — PENDING INGREDIENT CONFIRMATION
+Priced, but chicken breast unresolved (SOT §3). Confirm before going live.
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Chicken Schnitzel (Gà Tẩm Bột Chiên Xù) |
-| 2 | Item photo | pending |
+| 1 | Item name | Chicken Schnitzel – Gà Tẩm Bột Chiên Xù |
+| 2 | Item photo | 800×800px, ≤2MB |
 | 3 | Description | pending |
-| 4 | Category | Burger & Món Gà |
-| 5 | Price | 79.000₫ |
-| 6 | Option groups | TBD |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
+| 5 | Price | 99.000₫ |
+| 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-### Step 9 — ⚠️ Item: Fish & Chips — PENDING (do not enter live)
-Blocked: fish fillet unresolved (SOT §3, source-or-rebrand). Enter only after orchestrator confirms.
-
+### Step 9 — ⚠️ Item: Fish & Chips — PENDING INGREDIENT CONFIRMATION
+Priced, but fish fillet unresolved (SOT §3). Confirm before going live.
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Fish & Chips (Cá & Khoai Tây Chiên) |
-| 2 | Item photo | pending |
+| 1 | Item name | Fish & Chips – Cá & Khoai Tây Chiên |
+| 2 | Item photo | 800×800px, ≤2MB |
 | 3 | Description | pending |
-| 4 | Category | Burger & Món Gà |
-| 5 | Price | 85.000₫ |
-| 6 | Option groups | TBD |
+| 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
+| 5 | Price | 109.000₫ |
+| 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
+
+---
+
+## Category 3: Salads & Finger Foods – Salad & Món Ăn Vặt
+
+### Step 1 — Category
+**Menu → Items tab.** A "Finger Food" category already exists → **rename it**:
+| Field | Value |
+|---|---|
+| Category name | Salads & Finger Foods – Salad & Món Ăn Vặt |
+
+### Items (no option groups)
+Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Salads & Finger Foods – Salad & Món Ăn Vặt · Availability = All opening hours.
+
+| Item name | Description (EN / VN) | Price | Status |
+|---|---|---|---|
+| Garlic Bread – Bánh Mì Bơ Tỏi | Toasted garlic butter bread. / Bánh mì bơ tỏi nướng giòn. | 35.000₫ | Live |
+| Hand-Cut Chips – Khoai Tây Chiên Cắt Tay | Hand-cut fries. / Khoai tây chiên cắt tay. | 35.000₫ | Live |
+| Garden Salad – Salad Rau Củ | Fresh garden salad. / Salad rau củ tươi. | 49.000₫ | Live |
+| Egg Salad – Trứng Salad | Garden salad with egg. / Salad rau củ với trứng. | 49.000₫ | Live |
+| Shrimp Salad – Salad Tôm | Garden salad with shrimp. / Salad rau củ với tôm. | 69.000₫ | ⚠️ PENDING (shrimp) |
+| Egg & Shrimp Salad – Trứng & Tôm Salad | Salad with egg & shrimp. / Salad với trứng và tôm. | 75.000₫ | ⚠️ PENDING (shrimp) |
+| Popcorn Chicken – Gà Popcorn | Crispy popcorn chicken. / Gà popcorn giòn. | 45.000₫ | Live |
+| Chicken Strips 6pc – Gà Strips 6 Miếng | 6 crispy chicken strips. / 6 miếng gà chiên giòn. | 59.000₫ | Live |
+| Strips + Chips – Gà Strips & Khoai Tây | Chicken strips with chips. / Gà chiên giòn kèm khoai tây. | 79.000₫ | Live |
+| Chicken Skewer – Gà Xiên | Grilled chicken skewer. / Xiên gà nướng. | 25.000₫ | Live |
+| Skewer + BBQ – Gà Xiên Sốt BBQ | Chicken skewer with BBQ sauce. / Xiên gà kèm sốt BBQ. | 35.000₫ | Live |
+| Veg Seafood Tofu – Đậu Hũ Hải Sản Chay | Vegetarian seafood tofu. / Đậu hũ hải sản chay. | 45.000₫ | Live |
+
+---
+
+## Category 4: Drinks & Desserts – Đồ Uống & Tráng Miệng
+
+### Step 1 — Category
+**Menu → Items tab.** Existing "Soft Drink" + "Healthy Fruit Juice" overlap → **merge into one**:
+| Field | Value |
+|---|---|
+| Category name | Drinks & Desserts – Đồ Uống & Tráng Miệng |
+
+(Move existing drink items into this category, then delete the empty old ones.)
+
+### Items (no option groups)
+Each: **+ Add item** · Photo 800×800 ≤2MB · Category = Drinks & Desserts – Đồ Uống & Tráng Miệng · Availability = All opening hours.
+
+| Item name | Description (EN / VN) | Price | Status |
+|---|---|---|---|
+| Canned Drinks – Nước Ngọt Lon | Canned soft drink. / Nước ngọt lon. | 15.000₫ | Live |
+| Iced Milk Coffee – Cà Phê Sữa Đá | Vietnamese iced milk coffee. / Cà phê sữa đá. | 29.000₫ | Live |
+| Fruit Juice – Nước Ép Trái Cây | Fresh fruit juice. / Nước ép trái cây. | 35.000₫ | Live |
+| Smoothies – Sinh Tố | Fruit smoothie. / Sinh tố trái cây. | 39.000₫ | Live |
+| Coconut Cream Rice Balls – Bánh Trôi Nước Cốt Dừa | Rice balls (red bean/sesame) in coconut cream. / Bánh trôi nhân đậu đỏ/mè đen, sốt nước cốt dừa. | 29.000₫ | Live |
+| Fresh Fruit Bowl – Trái Cây Tươi | Fresh cut fruit bowl. / Trái cây tươi cắt sẵn. | 55.000₫ | Live |
