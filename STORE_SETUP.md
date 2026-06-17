@@ -92,47 +92,47 @@ Status: Categories 1–4 drafted.
 | 6 | Option groups | Link **Choose Your Sauce** |
 | 7 | Availability schedule | All opening hours |
 
-### Step 4 — Item: Chicken Burger + Chips
+### Step 4 — Item: Hamburger Cheese
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Chicken Burger + Chips – Burger Gà & Khoai Tây |
+| 1 | Item name | Hamburger Cheese – Burger Bò Phô Mai |
 | 2 | Item photo | 800×800px, ≤2MB |
-| 3 | Description | Chicken burger served with chips. / Burger gà ăn kèm khoai tây chiên. |
+| 3 | Description | Grilled beef patty with cheese & tomato sauce, served with chips. / Bánh bò nướng với phô mai & sốt cà chua, ăn kèm khoai tây chiên. |
 | 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
-| 5 | Price | 69.000₫ |
+| 5 | Price | 160.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-### Step 5 — Item: Big Hamburger Cheese
+### Step 5 — Item: Hamburger Egg
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Big Hamburger Cheese – Burger Bò Phô Mai Lớn |
+| 1 | Item name | Hamburger Egg – Burger Bò Trứng |
 | 2 | Item photo | 800×800px, ≤2MB |
-| 3 | Description | Big beef cheeseburger. / Burger bò phô mai cỡ lớn. |
+| 3 | Description | Grilled beef patty with egg, cheese & tomato sauce, served with chips. / Bánh bò nướng với trứng, phô mai & sốt cà chua, ăn kèm khoai tây chiên. |
 | 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
-| 5 | Price | 79.000₫ |
+| 5 | Price | 170.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-### Step 6 — Item: Big Hamburger Egg
+### Step 6 — Item: Double Hamburger
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Big Hamburger Egg – Burger Bò Trứng Lớn |
+| 1 | Item name | Double Hamburger – Burger Bò Đôi |
 | 2 | Item photo | 800×800px, ≤2MB |
-| 3 | Description | Big beef burger with egg. / Burger bò trứng cỡ lớn. |
+| 3 | Description | Two grilled beef patties & two slices of cheese with tomato sauce, served with chips. / Hai bánh bò nướng & hai lát phô mai với sốt cà chua, ăn kèm khoai tây chiên. |
 | 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
-| 5 | Price | 75.000₫ |
+| 5 | Price | 250.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
-### Step 7 — Item: Big Double Hamburger Cheese
+### Step 7 — Item: Chicken Burger
 | # | Field | Value |
 |---|---|---|
-| 1 | Item name | Big Double Hamburger Cheese – Burger Bò Đôi Phô Mai Lớn |
+| 1 | Item name | Chicken Burger – Burger Gà |
 | 2 | Item photo | 800×800px, ≤2MB |
-| 3 | Description | Big double beef cheeseburger. / Burger bò đôi phô mai cỡ lớn. |
+| 3 | Description | Grilled chicken patty with cheese & tomato sauce, served with chips. / Bánh gà nướng với phô mai & sốt cà chua, ăn kèm khoai tây chiên. |
 | 4 | Category | Burgers & Chicken Mains – Burger & Món Gà |
-| 5 | Price | 109.000₫ |
+| 5 | Price | 170.000₫ |
 | 6 | Option groups | none |
 | 7 | Availability schedule | All opening hours |
 
