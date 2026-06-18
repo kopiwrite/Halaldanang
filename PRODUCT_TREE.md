@@ -95,12 +95,10 @@ This is the canonical product structure. Prices in VND ('000).
 ## Option Groups (modifiers)
 | Group | Options (+price) | Linked items |
 |---|---|---|
-| Sugar – Đường | No Sugar · Less · Normal | 17 items (drinks — verify) |
+| Sugar – Đường | No Sugar · Less · Normal | Drinks only (confirmed) |
 | Chọn Sốt (Choose Your Sauce) | Sốt Ớt (Chilli) · Sốt Cà & Mayo (Tomato & Mayo) | 1 — Chicken Patty |
 | Toppings | Boiled Egg +8 · Tofu +12 · Popcorn K&U +29 · Strips +29 · Skewer +29 · Shrimp +35 | 1 — Noodle Bowl |
 | Chọn Cấp Độ Cay (Choose Noodle Base) | Samyang 2x +8 · Habanero Lime +6 · Quattro Cheese +6 · Mi Sedaap +0 | 1 — Noodle Bowl |
-| Thêm vị món ăn càng ngon (add-ons) | Fried Egg +10 · Cheese +10 · Hand-Cut Chips +60 | 4 items — verify which |
+| ~~Thêm vị món ăn càng ngon~~ | ~~Fried Egg +10 · Cheese +10 · Hand-Cut Chips +60~~ | REMOVED — was attached only to the duplicate Hamburger category (deleted) |
 
-## To verify
-- Sugar group → which 17 items (confirm drinks only).
-- "Thêm vị" add-ons → which 4 items (likely burgers).
+_All linkages confirmed. Sugar = drinks only. "Thêm vị" group is defunct (tied to the removed duplicate hamburgers)._
