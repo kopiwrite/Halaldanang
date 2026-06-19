@@ -1,59 +1,57 @@
 # Halal Da Nang — Product Tree
 
-Source: **live GrabFood store** ("Halal Online Home", Da Nang) — captured from merchant screenshots 2026-06-18.
-This is the canonical product structure. Prices in VND ('000).
+Source: **live GrabFood store** ("Halal Online Home", Da Nang). Prices in VND.
+Canonical product structure. (Old SOT.md is stale — this is the truth.)
 
 ---
 
-## 1 · Burgers & Mains — Burgers & Main Dishes
-| Item | Price | Notes |
+## 1 · Burgers & Mains
+| Item | Price | Option groups |
 |---|---|---|
-| Chicken Burger | 170.000 | grilled chicken patty, cheese & tomato sauce, chips |
-| Double Hamburger | 250.000 | 2 grilled beef patties, 2 cheese, tomato sauce, chips |
-| Hamburger Egg (Beef + Egg) | 170.000 | grilled beef patty, egg, cheese & tomato sauce, chips |
-| Hamburger Cheese (Beef + Cheese) | 160.000 | grilled beef patty, cheese & tomato sauce, chips |
-| Fish & Chips Vietnamese Style | 180.000 | |
-| Chicken Schnitzel | 90.000 | crispy breaded fried chicken |
-| Chicken Patty, Choice of Sauce | 90.000 | → modifier: **Chọn Sốt** |
+| Chicken Burger | 160.000 | Add Cheese · Extra Sauce |
+| Double Hamburger | 250.000 | Add Cheese · Extra Sauce |
+| Hamburger Egg — Beef + Egg | 170.000 | Add Cheese · Extra Sauce |
+| Hamburger Cheese — Beef + Cheese | 160.000 | Add Cheese · Extra Sauce |
+| Fish & Chips Vietnamese Style | 180.000 | Choose Your Sauce · Extra Sauce |
+| Chicken Schnitzel | 90.000 | Choose Your Sauce · Extra Sauce |
+| Chicken Patty – Bánh Gà | 90.000 | Choose Your Sauce · Extra Sauce |
 
-## 2 · Custom Noodle Bar — Tự Làm Mì Trộn Cay
-- **Custom Noodle Bowl With Spicy Mixed Noodles — 35.000** (base)
-  - **Choose Noodle Base** *(pick 1, required):* Mi Sedaap Korean Spicy Chicken +0 · Samyang Habanero Lime +6.000 · Samyang Quattro Cheese +6.000 · Samyang 2x Spicy +8.000
-  - **Toppings** *(optional, max 6):* Boiled Egg +8.000 · Tofu +12.000 · Popcorn Chicken K&U +29.000 · Chicken Strips +29.000 · Chicken Skewer +29.000 · Fried Shrimp +35.000
+## 2 · Custom Noodle Bar – Tự Làm Mì Trộn Cay
+- **Custom Noodle Bowl — 35.000** → Noodle Base · Toppings · Add Cheese · Extra Sauce
+  - **Choose Your Noodle Base – Chọn Sợi Mì** *(mandatory, 1–1):* Mi Sedaap +0 · Samyang Habanero Lime +10.000 · Samyang Quattro Cheese +10.000 · Samyang 2x Spicy +10.000
+  - **Toppings – Topping** *(optional, 0–6):* Boiled Egg +10.000 · Tofu +10.000 · Popcorn Chicken K&U +30.000 · Chicken Strips +30.000 · Chicken Skewer +30.000 · Fried Shrimp +35.000
 
-## 3 · Salads & Finger Foods — Salad & Snacks
-| Item | Price | Status |
-|---|---|---|
-| Garlic Bread | 60.000 | |
-| Popcorn Chicken | 95.000 | |
-| Chicken Skewer + BBQ | 125.000 | |
-| Chicken Skewer | 120.000 | |
-| Hand-Cut Chips / French Fries | 65.000 | |
-| Crispy Fried Shrimp | 120.000 | |
-| Chicken Strips 6pc + Chips | 160.000 | |
-| Chicken Strips 6pc | 95.000 | |
-| Shrimp Salad | 150.000 | |
-| Egg Salad (Vietnamese-style) | 110.000 | |
-| Egg & Shrimp Salad | 120.000 | |
-| Garden Salad | 50.000 | |
-| Veg Seafood Tofu | 50.000 | |
-| Hand-made Shrimp & Chicken Spring Roll | 120.000 | UNAVAILABLE |
-| Hand-made Chicken Spring Roll | 120.000 | UNAVAILABLE |
-| Hand-made Shrimp Spring Roll | 120.000 | UNAVAILABLE |
+## 3 · Build Your Own Salad – Salad Tự Trộn
+- **Salad Bowl — 50.000** → Toppings · Add Cheese · Extra Sauce *(all optional)*
 
-## 4 · Vietnamese Coffee — Cà Phê Phin
+## 4 · Finger Foods *(renamed; salads moved to #3)*
+| Item | Price | Option groups | Status |
+|---|---|---|---|
+| Garlic Bread | 60.000 | — | |
+| Popcorn Chicken | 95.000 | Extra Sauce | |
+| Chicken Skewer + BBQ | 125.000 | Extra Sauce | |
+| Chicken Skewer | 120.000 | Extra Sauce | |
+| Hand-Cut Chips | 65.000 | Extra Sauce | |
+| Crispy Fried Shrimp | 120.000 | Extra Sauce | |
+| Chicken Strips 6pc + Chips | 150.000 | Extra Sauce | |
+| Chicken Strips 6pc | 95.000 | Extra Sauce | |
+| Veg Seafood Tofu | 50.000 | — | |
+| Shrimp & Chicken Spring Roll | 120.000 | — | UNAVAILABLE |
+| Chicken Spring Roll | 120.000 | — | UNAVAILABLE |
+| Shrimp Spring Roll | 120.000 | — | UNAVAILABLE |
+
+## 5 · Vietnamese Coffee – Cà Phê Phin
 | Item | Price |
 |---|---|
-| Vietnamese White Coffee (Iced Milk) | 40.000 |
-| Milk Coffee — Cà Phê Sữa | 35.000 |
-| Vietnamese Black Coffee (Iced) | 25.000 |
+| Vietnamese White Coffee, Iced Milk | 40.000 |
+| Milk Coffee – Cà Phê Sữa | 35.000 |
+| Vietnamese Black Coffee, Iced | 25.000 |
 
-## 5 · Fruit Bowl — Tô Trái Cây
-| Item | Price |
-|---|---|
+## 6 · Fruit Bowl – Tô Trái Cây
 | Fruit Bowl | 40.000 |
+|---|---|
 
-## 6 · Smoothie — Sinh Tố
+## 7 · Smoothie – Sinh Tố
 | Item | Price |
 |---|---|
 | Frozen Lemonade | 55.000 |
@@ -61,7 +59,7 @@ This is the canonical product structure. Prices in VND ('000).
 | Avocado Smoothie | 50.000 |
 | Mango Smoothie | 50.000 |
 
-## 7 · Healthy Fruit Juice — Nước Ép Trái Cây
+## 8 · Healthy Fruit Juice – Nước Ép Trái Cây
 | Item | Price |
 |---|---|
 | Immunity Booster Juice | 50.000 |
@@ -75,7 +73,7 @@ This is the canonical product structure. Prices in VND ('000).
 | 100% Fresh Pineapple Juice | 40.000 |
 | Carrot Juice | 40.000 |
 
-## 8 · Soft / Canned Drinks
+## 9 · Soft / Canned Drinks
 | Item | Price |
 |---|---|
 | Dry Ginger Ale | 30.000 |
@@ -84,7 +82,7 @@ This is the canonical product structure. Prices in VND ('000).
 | Coca Cola | 30.000 |
 | Aqua Water | 25.000 |
 | Aqua Soda Water | 25.000 |
-| 7Up Zero (Lemon Soda) | 25.000 |
+| 7Up Zero — Lemon Soda | 25.000 |
 | 7 Up | 25.000 |
 | Pepsi Zero Calories | 35.000 |
 | Pepsi Zero Sugar | 25.000 |
@@ -92,13 +90,14 @@ This is the canonical product structure. Prices in VND ('000).
 
 ---
 
-## Option Groups (modifiers)
-| Group | Options (+price) | Linked items |
-|---|---|---|
-| Sugar – Đường | No Sugar · Less · Normal | Drinks only (confirmed) |
-| Chọn Sốt (Choose Your Sauce) | Sốt Ớt (Chilli) · Sốt Cà & Mayo (Tomato & Mayo) | 1 — Chicken Patty |
-| Toppings | Boiled Egg +8 · Tofu +12 · Popcorn K&U +29 · Strips +29 · Skewer +29 · Shrimp +35 | 1 — Noodle Bowl |
-| Chọn Cấp Độ Cay (Choose Noodle Base) | Samyang 2x +8 · Habanero Lime +6 · Quattro Cheese +6 · Mi Sedaap +0 | 1 — Noodle Bowl |
-| ~~Thêm vị món ăn càng ngon~~ | ~~Fried Egg +10 · Cheese +10 · Hand-Cut Chips +60~~ | REMOVED — was attached only to the duplicate Hamburger category (deleted) |
+## Option Groups
+| Group | Rule | Options | Linked |
+|---|---|---|---|
+| Choose Your Noodle Base – Chọn Sợi Mì | mandatory 1–1 | Mi Sedaap +0 · Samyang ×3 +10.000 | Noodle Bowl |
+| Choose Your Sauce – Chọn Sốt | required 1–1 | Chilli – Sốt Ớt · Tomato & Mayo – Sốt Cà & Mayo | Chicken Patty · Fish & Chips · Schnitzel |
+| Toppings – Topping | optional 0–6 | Egg +10 · Tofu +10 · Popcorn +30 · Strips +30 · Skewer +30 · Shrimp +35 | Noodle Bowl · Salad Bowl |
+| Sugar – Đường | optional (def Normal) | No Sugar · Less · Normal | 17 made-to-order drinks |
+| Add Cheese – Thêm Phô Mai | optional 0–2 | Cheese +10.000 · Mozzarella +20.000 | 4 burgers · Noodle Bowl · Salad Bowl |
+| Extra Sauce – Sốt Thêm | optional 0–2 | +5k: Chilica · Spicy Korean · Sichuan Mala · Brown Sugar BBQ — +10k: HP · US Original BBQ · Heinz Smokey & Rich | 16 savoury items |
 
-_All linkages confirmed. Sugar = drinks only. "Thêm vị" group is defunct (tied to the removed duplicate hamburgers)._
+**Totals:** 9 categories · 47 active items (+3 spring rolls unavailable) · 6 option groups.

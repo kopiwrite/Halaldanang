@@ -1,54 +1,51 @@
-category,item,price_vnd,status,modifier_group,options
-Burgers & Mains,Chicken Burger,170000,available,,
-Burgers & Mains,Double Hamburger,250000,available,,
-Burgers & Mains,Hamburger Egg,170000,available,,
-Burgers & Mains,Hamburger Cheese,160000,available,,
-Burgers & Mains,Fish & Chips Vietnamese Style,180000,available,,
-Burgers & Mains,Chicken Schnitzel,90000,available,,
-Burgers & Mains,Chicken Patty Choice of Sauce,90000,available,Chọn Sốt,Chilli / Tomato & Mayo
-Custom Noodle Bar,Custom Noodle Bowl With Spicy Mixed Noodles,35000,available,Choose Noodle Base (pick1);Toppings (max6),"base: MiSedaap+0,Samyang Habanero Lime+6000,Samyang Quattro Cheese+6000,Samyang 2x Spicy+8000 | toppings: Boiled Egg+8000,Tofu+12000,Popcorn K&U+29000,Strips+29000,Skewer+29000,Shrimp+35000"
-Salads & Finger Foods,Garlic Bread,60000,available,,
-Salads & Finger Foods,Popcorn Chicken,95000,available,,
-Salads & Finger Foods,Chicken Skewer + BBQ,125000,available,,
-Salads & Finger Foods,Chicken Skewer,120000,available,,
-Salads & Finger Foods,Hand-Cut Chips / French Fries,65000,available,,
-Salads & Finger Foods,Crispy Fried Shrimp,120000,available,,
-Salads & Finger Foods,Chicken Strips 6pc + Chips,160000,available,,
-Salads & Finger Foods,Chicken Strips 6pc,95000,available,,
-Salads & Finger Foods,Shrimp Salad,150000,available,,
-Salads & Finger Foods,Egg Salad,110000,available,,
-Salads & Finger Foods,Egg & Shrimp Salad,120000,available,,
-Salads & Finger Foods,Garden Salad,50000,available,,
-Salads & Finger Foods,Veg Seafood Tofu,50000,available,,
-Salads & Finger Foods,Hand-made Shrimp & Chicken Spring Roll,120000,unavailable,,
-Salads & Finger Foods,Hand-made Chicken Spring Roll,120000,unavailable,,
-Salads & Finger Foods,Hand-made Shrimp Spring Roll,120000,unavailable,,
-Vietnamese Coffee,Vietnamese White Coffee Iced Milk,40000,available,,
-Vietnamese Coffee,Milk Coffee Ca Phe Sua,35000,available,,
-Vietnamese Coffee,Vietnamese Black Coffee Iced,25000,available,,
-Fruit Bowl,Fruit Bowl,40000,available,,
-Smoothie,Frozen Lemonade,55000,available,,
-Smoothie,Banana Smoothie,50000,available,,
-Smoothie,Avocado Smoothie,50000,available,,
-Smoothie,Mango Smoothie,50000,available,,
-Healthy Fruit Juice,Immunity Booster Juice,50000,available,,
-Healthy Fruit Juice,100% Fresh Apple Juice,40000,available,,
-Healthy Fruit Juice,Liver Cleanse Green Juice,55000,available,,
-Healthy Fruit Juice,Glow From Within Detox Juice,50000,available,,
-Healthy Fruit Juice,Celery & Apple Detox Juice,50000,available,,
-Healthy Fruit Juice,Celery Magic Juice,50000,available,,
-Healthy Fruit Juice,100% Fresh Orange Juice,35000,available,,
-Healthy Fruit Juice,100% Watermelon Juice,40000,available,,
-Healthy Fruit Juice,100% Fresh Pineapple Juice,40000,available,,
-Healthy Fruit Juice,Carrot Juice,40000,available,,
-Soft / Canned Drinks,Dry Ginger Ale,30000,available,,
-Soft / Canned Drinks,Tonic Water,30000,available,,
-Soft / Canned Drinks,Coca Cola Zero Sugar,30000,available,,
-Soft / Canned Drinks,Coca Cola,30000,available,,
-Soft / Canned Drinks,Aqua Water,25000,available,,
-Soft / Canned Drinks,Aqua Soda Water,25000,available,,
-Soft / Canned Drinks,7Up Zero Lemon Soda,25000,available,,
-Soft / Canned Drinks,7 Up,25000,available,,
-Soft / Canned Drinks,Pepsi Zero Calories,35000,available,,
-Soft / Canned Drinks,Pepsi Zero Sugar,25000,available,,
-Soft / Canned Drinks,Pepsi,25000,available,,
+category,item,price_vnd,status,option_groups
+Burgers & Mains,Chicken Burger,160000,available,Add Cheese;Extra Sauce
+Burgers & Mains,Double Hamburger,250000,available,Add Cheese;Extra Sauce
+Burgers & Mains,Hamburger Egg,170000,available,Add Cheese;Extra Sauce
+Burgers & Mains,Hamburger Cheese,160000,available,Add Cheese;Extra Sauce
+Burgers & Mains,Fish & Chips Vietnamese Style,180000,available,Choose Your Sauce;Extra Sauce
+Burgers & Mains,Chicken Schnitzel,90000,available,Choose Your Sauce;Extra Sauce
+Burgers & Mains,Chicken Patty - Banh Ga,90000,available,Choose Your Sauce;Extra Sauce
+Custom Noodle Bar,Custom Noodle Bowl,35000,available,Choose Your Noodle Base;Toppings;Add Cheese;Extra Sauce
+Build Your Own Salad,Salad Bowl,50000,available,Toppings;Add Cheese;Extra Sauce
+Finger Foods,Garlic Bread,60000,available,
+Finger Foods,Popcorn Chicken,95000,available,Extra Sauce
+Finger Foods,Chicken Skewer + BBQ,125000,available,Extra Sauce
+Finger Foods,Chicken Skewer,120000,available,Extra Sauce
+Finger Foods,Hand-Cut Chips,65000,available,Extra Sauce
+Finger Foods,Crispy Fried Shrimp,120000,available,Extra Sauce
+Finger Foods,Chicken Strips 6pc + Chips,150000,available,Extra Sauce
+Finger Foods,Chicken Strips 6pc,95000,available,Extra Sauce
+Finger Foods,Veg Seafood Tofu,50000,available,
+Finger Foods,Shrimp & Chicken Spring Roll,120000,unavailable,
+Finger Foods,Chicken Spring Roll,120000,unavailable,
+Finger Foods,Shrimp Spring Roll,120000,unavailable,
+Vietnamese Coffee,Vietnamese White Coffee Iced Milk,40000,available,Sugar
+Vietnamese Coffee,Milk Coffee Ca Phe Sua,35000,available,Sugar
+Vietnamese Coffee,Vietnamese Black Coffee Iced,25000,available,Sugar
+Fruit Bowl,Fruit Bowl,40000,available,
+Smoothie,Frozen Lemonade,55000,available,Sugar
+Smoothie,Banana Smoothie,50000,available,Sugar
+Smoothie,Avocado Smoothie,50000,available,Sugar
+Smoothie,Mango Smoothie,50000,available,Sugar
+Healthy Fruit Juice,Immunity Booster Juice,50000,available,Sugar
+Healthy Fruit Juice,100% Fresh Apple Juice,40000,available,Sugar
+Healthy Fruit Juice,Liver Cleanse Green Juice,55000,available,Sugar
+Healthy Fruit Juice,Glow From Within Detox Juice,50000,available,Sugar
+Healthy Fruit Juice,Celery & Apple Detox Juice,50000,available,Sugar
+Healthy Fruit Juice,Celery Magic Juice,50000,available,Sugar
+Healthy Fruit Juice,100% Fresh Orange Juice,35000,available,Sugar
+Healthy Fruit Juice,100% Watermelon Juice,40000,available,Sugar
+Healthy Fruit Juice,100% Fresh Pineapple Juice,40000,available,Sugar
+Healthy Fruit Juice,Carrot Juice,40000,available,Sugar
+Soft / Canned Drinks,Dry Ginger Ale,30000,available,
+Soft / Canned Drinks,Tonic Water,30000,available,
+Soft / Canned Drinks,Coca Cola Zero Sugar,30000,available,
+Soft / Canned Drinks,Coca Cola,30000,available,
+Soft / Canned Drinks,Aqua Water,25000,available,
+Soft / Canned Drinks,Aqua Soda Water,25000,available,
+Soft / Canned Drinks,7Up Zero Lemon Soda,25000,available,
+Soft / Canned Drinks,7 Up,25000,available,
+Soft / Canned Drinks,Pepsi Zero Calories,35000,available,
+Soft / Canned Drinks,Pepsi Zero Sugar,25000,available,
+Soft / Canned Drinks,Pepsi,25000,available,
